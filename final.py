@@ -23,7 +23,7 @@ def lg(x):
     return log(x, 10)
 class EQFrame1(wx.Frame):
     def __init__(self, CalFrame):
-        wx.Frame.__init__(self,CalFrame, -1, 'Equation1', size=(240, 310),
+        wx.Frame.__init__(self,CalFrame, -1, 'Solve Equation', size=(240, 310),
               style=wx.DEFAULT_FRAME_STYLE ^ (wx.RESIZE_BORDER | wx.MINIMIZE_BOX |wx.MAXIMIZE_BOX))
         panel = wx.Panel(self)
         panel.SetBackgroundColour('White')
@@ -75,7 +75,7 @@ class EQFrame1(wx.Frame):
         self.userText2.SetValue(message)
 class EQFrame2(wx.Frame):
     def __init__(self, CalFrame):
-        wx.Frame.__init__(self,CalFrame, -1, 'Equation2', size=(240, 310),
+        wx.Frame.__init__(self,CalFrame, -1, 'Solve Equations', size=(240, 310),
               style=wx.DEFAULT_FRAME_STYLE ^ (wx.RESIZE_BORDER | wx.MINIMIZE_BOX |wx.MAXIMIZE_BOX))
         panel = wx.Panel(self)
         panel.SetBackgroundColour('White')
